@@ -1,3 +1,6 @@
+/* eslint-disable*/
 export default function printMe() {
-  console.log('I get called from print.js!');
+  if (typeof console !== 'undefined') {
+    console.log('Some debug information');
+  }
 }

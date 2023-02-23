@@ -38,9 +38,9 @@ function todoList() {
     taskElement.appendChild(taskText);
 
     const taskEditButton = document.createElement('button');
-  taskEditButton.classList.add('edit-button');
-  taskEditButton.innerHTML = '<i class="fas fa-edit edit-button"></i>';
-  taskElement.appendChild(taskEditButton);
+    taskEditButton.classList.add('edit-button');
+    taskEditButton.innerHTML = '<i class="fas fa-edit edit-button"></i>';
+    taskElement.appendChild(taskEditButton);
 
     const dragIcon = document.createElement('button');
     dragIcon.classList = 'far fa-trash-alt deleteBtn';
@@ -92,13 +92,13 @@ function editItem(e) {
     const newDescription = taskText.value.trim();
 
     if (newDescription.length > 0) {
-      const index = list.findIndex(task => task.description === taskText.value);
+      const index = list.findIndex((task) => task.description === taskText.value);
       if (index !== -1) {
         // If there is already a task with the same description, don't allow editing
         taskText.value = list[index].description;
       } else {
         // Update the task description and save to local storage
-        const task = list.find(task => task.description === btn.parentElement.children[1].value);
+        const task = list.find((task) => task.description === btn.parentElement.children[1].value);
         task.description = newDescription;
         stat.saveLocal(list);
       }
