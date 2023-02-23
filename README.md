@@ -24,13 +24,17 @@
  <a name="about-project"></a>
 
 
-**To Do list: list structure** In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
+**To Do list** "To-do list" is used to lists the things that you need to do and allows you to mark them as complete. This is built using ES6 and Webpack!
 
 
 ## 🛠 Built With <a name="built-with"></a>
 - Html
 - css
 - Javascript
+- Webpack
+- Visual Studio Code
+- Git & Github
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Live Demo
