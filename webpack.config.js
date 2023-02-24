@@ -4,10 +4,7 @@ const path = require('path');
  /* eslint-enable */
 module.exports = {
   mode: 'development',
-  entry: {
-    index: './src/index.js',
-    print: './src/print.js',
-  },
+  entry: './src/index.js',
   devServer: {
     static: './dist',
   },
