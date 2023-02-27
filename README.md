@@ -38,7 +38,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Live Demo
-[Live Demo Link] (https://mumo-esther.github.io/To-Do-List/dist/)
+Live Demo Link 
+https://mumo-esther.github.io/To-Do-List/dist/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
